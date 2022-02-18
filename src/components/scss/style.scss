@@ -1,14 +1,5 @@
-@import "_header";
-@import "_mainBloсk";
-@import "_sidebar";
-@import "_mainContainer";
-@import "_info";
-@import "_footer";
-
-$rem: 1.3rem;
-
 .wrapper {
-  height: 100%;  
+  height: 100vh;
 }
 .container {
   height: 100%;
@@ -18,4 +9,10 @@ $rem: 1.3rem;
   flex-direction: column;
 }
 
-
+@import "_variables";
+@import "_header";
+@import "_mainBloсk";
+@import "_sidebar";
+@import "_mainContainer";
+@import "_info";
+@import "_footer";

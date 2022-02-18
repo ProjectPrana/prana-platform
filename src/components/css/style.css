@@ -1,5 +1,5 @@
 .wrapper {
-  height: 100%;
+  height: 100vh;
 }
 
 .container {
@@ -14,8 +14,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-
 
 .header {
   background-color: #418bca;
@@ -85,8 +83,6 @@
   font-size: 1.3rem;
   color: white;
 }
-
-
 
 .main {
   background-color: white;
