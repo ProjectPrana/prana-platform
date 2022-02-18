@@ -1,8 +1,21 @@
 @import "_header";
+@import "_mainBloсk";
+@import "_sidebar";
+@import "_mainContainer";
+@import "_info";
+@import "_footer";
 
-$myVar: red;
+$rem: 1.3rem;
 
-body{
-  background-color: black;
+.wrapper {
+  height: 100%;  
 }
+.container {
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 

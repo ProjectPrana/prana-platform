@@ -1,0 +1,8 @@
+.main {
+  background-color:white;
+  border: 1px solid black;
+  background-color:red;
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}

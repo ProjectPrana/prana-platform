@@ -1,3 +1,66 @@
-header {
-    background-color: yellow;
+.header {
+  	background-color: #418bca;
+	  margin-bottom: 10px;
+		
+		&__container {
+			height: 70px;
+			display: grid;
+			grid-template-columns: 20% 1fr 15%;
+			justify-items: center;
+			align-items: center;
+		}
+
+		&__logo {
+			display: grid;
+			grid-auto-flow: column;
+			gap:20px;
+		}
+
+		&__allbutton {
+			font-size: $rem;
+			margin-left: 20px;
+			display: grid;
+			grid-auto-flow:column;
+			gap:20px;
+			justify-self: start;
+			color:white;
+		}
+
+		&__button {
+			padding-bottom: 3px;
+			border-bottom:0.5px solid white;
+		}
+
+		&__link{
+			color:white;
+			padding: 5px;
+		}
+
+		&__authorization {
+			.enter {
+				&__button {
+					display: inline-block;
+					border: 1px solid black;
+					border-radius: 10px;
+					padding: 10px;
+					& span{
+						font-size: $rem;
+						color:white;
+					}
+				}
+			}
+		}
+}
+.logo {
+
+		&__img {
+			height: 40px;
+			margin: auto;
+		}
+
+		&__name {
+			line-height: 70px;
+			font-size: $rem;
+			color:white;
+		}
 }

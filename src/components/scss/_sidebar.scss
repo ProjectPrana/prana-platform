@@ -1,0 +1,54 @@
+
+.sidebar {
+	border: 1px solid black;
+
+		&__head {
+			display: grid;
+			grid-template-columns: 50% 50%;
+			justify-content: center;
+			align-items: center;
+			column-gap: 30px;
+			
+			padding: 5px;
+			margin-bottom: 10px;
+		}
+
+		&__avatar {
+			justify-self:end;
+		}
+
+		&__personName {
+			justify-self:start;
+			font-size: $rem;
+		}
+
+		&__tittle {
+			height: 20px;
+			background-color:white;
+			font-size: $rem;
+			color:gray;
+			margin-bottom: 10px;
+		}
+
+		&__button {
+			border-bottom: 2px solid gray;
+			margin-bottom: 10px;
+		}
+
+		&__link {
+			display: flex;
+			align-items:center;
+			height: 30px;
+			font-size: 1rem;
+			text-transform: uppercase;			
+			color:black;
+			padding-left: 30px;
+			svg{
+				width: 25px;
+				height: 25px;	
+			}
+			span{
+				padding-left: 10px;
+			}
+		}
+}
