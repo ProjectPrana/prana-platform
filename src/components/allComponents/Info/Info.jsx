@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./info.module.scss";
 
 const Info = () => {
     return (
-        <section className="information">
+        <section className={style.information}>
             information
         </section>
     )

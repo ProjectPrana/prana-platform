@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './components/css/styleZero.css';
-import "./components/css/style.css";
+//import './components/css/styleZero.css';
+import "./components/scss/style.scss";
 import Header from './components/allComponents/Header/Header';
 import MainBlock from './components/allComponents/MainBlock/MainBloсk';
 import Info from './components/allComponents/Info/Info';

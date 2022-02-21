@@ -17,7 +17,7 @@
 		}
 
 		&__allbutton {
-			font-size: $rem;
+			font-size: 1.3rem;
 			margin-left: 20px;
 			display: grid;
 			grid-auto-flow:column;
@@ -44,7 +44,7 @@
 					border-radius: 10px;
 					padding: 10px;
 					& span{
-						font-size: $rem;
+						font-size: 1.3rem;
 						color:white;
 					}
 				}
@@ -60,7 +60,7 @@
 
 		&__name {
 			line-height: 70px;
-			font-size: $rem;
+			font-size: 1.3rem;
 			color:white;
 		}
 }
