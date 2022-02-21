@@ -1,6 +1,8 @@
+@import "variables";
 .wrapper {
   height: 100vh;
 }
+
 .container {
   height: 100%;
   width: 85%;
@@ -9,8 +11,4 @@
   flex-direction: column;
 }
 
-@import "_variables";
-@import "_header";
-@import "_mainBloсk";
-@import "_info";
-@import "_footer";
+

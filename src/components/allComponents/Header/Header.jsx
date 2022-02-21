@@ -1,9 +1,11 @@
 import React from "react";
-import "../css/style.css"
+import "../variables/variables.scss";
+import style from './header.module.scss';
+
 
 const Header = () => {
-  return (
-    <header className="header">
+    return (
+    <header className={style.header}>
                     <div className="header__container">
                         <div className="header__logo logo">                            
                             <div className="logo__name"> Platform </div>
@@ -35,7 +37,7 @@ const Header = () => {
                         </div>
                     </div>
     </header>
-  );
+);
 }
 
 
