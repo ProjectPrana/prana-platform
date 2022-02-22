@@ -1,0 +1,14 @@
+.student{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 10px;
+	border:1px solid black;
+	&__st{
+		border-right:1px solid black;
+	}	
+	&__st:last-child{
+		border-right:0px;
+	}								
+}				
