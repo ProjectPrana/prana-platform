@@ -7,20 +7,24 @@ import MainLessons from './Pages/MainLessons/MainLessons';
 import Homework from './Pages/Homework/Homework';
 import Exercises from './Pages/Exercises/Exercises';
 import Bookslist from './Pages/Bookslist/Bookslist';
+import Rating from './Pages/Rating/Rating';
+
+
 
 const MainBlock = () => {
     return (
-    <main className={style.main}>
+      <main className={style.main}>
         <Sidebar />
         <Routes>
-            <Route path="/" element={<StudentPage />} />
-            <Route path="/studentpage" element={<StudentPage />} />
-            <Route path="/lessons" element={<MainLessons />} />
-            <Route path="/homework" element={<Homework />} />
-            <Route path="/exercises" element={<Exercises />} />
-            <Route path="/bookslist" element={<Bookslist />} />
+          <Route path="/" element={<StudentPage />} />
+          <Route path="/studentpage" element={<StudentPage />} />
+          <Route path="/lessons" element={<MainLessons />} />
+          <Route path="/homework" element={<Homework />} />
+          <Route path="/exercises" element={<Exercises />} />
+          <Route path="/bookslist" element={<Bookslist />} />
+          <Route path="/rating" element={<Rating />} />
         </Routes>
-    </main>
+      </main>
     );
 };
 

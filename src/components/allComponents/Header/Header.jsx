@@ -1,5 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import style from "./header.module.scss";
+
+let alertClick = () => alert('Hello my friend');
 
 const Header = () => {
   return (
@@ -10,44 +13,44 @@ const Header = () => {
         </div>
         <div className={style.header__allbutton}>
           <div className={style.header__button}>
-            <a href="" className={style.header__link} target="_blank">
-              {" "}
+            <Link to="/ourcourses" className={style.header__link}>
+              {' '}
               <span>Наши курсы</span>
-            </a>
+            </Link>
           </div>
           <div className={style.header__button}>
-            <a href="" className={style.header__link} target="_blank">
-              {" "}
+            <Link to="/ourteachers" className={style.header__link}>
+              {' '}
               <span>Преподаватели</span>
-            </a>
+            </Link>
           </div>
           <div className={style.header__button}>
-            <a href="" className={style.header__link} target="_blank">
-              {" "}
+            <Link to="/rating" className={style.header__link}>
+              {' '}
               <span>Рейтинг</span>
-            </a>
+            </Link>
           </div>
           <div className={style.header__button}>
-            <a href="" className={style.header__link} target="_blank">
-              {" "}
+            <Link to="/articles" className={style.header__link}>
+              {' '}
               <span>Статьи</span>
-            </a>
+            </Link>
           </div>
           <div className={style.header__button}>
-            <a href="" className={style.header__link} target="_blank">
-              {" "}
+            <Link to="/aboutus" className={style.header__link}>
+              {' '}
               <span>О нас</span>
-            </a>
+            </Link>
           </div>
           <div className={style.header__button}>
-            <a href="" className={style.header__link} target="_blank">
-              {" "}
+            <Link to="/сontacts" className={style.header__link}>
+              {' '}
               <span> Контакты </span>
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${style.header__authorization} ${style.enter}`}>
-          <a href="https://prana-club.com/" className={style.enter__button}>
+          <a href="#" onClick={alertClick} className={style.enter__button}>
             <span> Вход </span>
           </a>
         </div>

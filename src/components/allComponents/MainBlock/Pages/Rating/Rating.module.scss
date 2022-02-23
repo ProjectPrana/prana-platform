@@ -1,0 +1,38 @@
+.main__rating {
+		width: 100%;
+		.main__results {
+			font-size: 20px;
+			text-align: center;
+			margin:30px 0;
+			text-decoration:underline;
+
+		}
+		
+		.studentsResults{
+			width: 90%;
+			height: 80%;
+			background-color:rgb(236, 233, 233);
+			margin: 0 auto;
+			
+			&__tabl{
+				height: 100%;
+				display: grid;
+				grid-template-rows:50px 1fr;
+				grid-template-columns: repeat(4,1fr) ;
+				row-gap: 10px;
+				border:1px solid black;
+			}
+
+			&__cell{
+				text-align: center;
+				font-size: 15px;
+				font-weight: 500;
+				line-height: 50px;
+				border:1px solid black;
+			}
+			&__test{
+				grid-column: 1/5;								
+			}
+			
+		}
+}
