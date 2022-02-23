@@ -9,7 +9,6 @@ import Exercises from './Pages/Exercises/Exercises';
 import Bookslist from './Pages/Bookslist/Bookslist';
 import Rating from './Pages/Rating/Rating';
 
-let test = [{ name: "I am", id: 356 }];
 
 
 const MainBlock = () => {
@@ -23,7 +22,7 @@ const MainBlock = () => {
           <Route path="/homework" element={<Homework />} />
           <Route path="/exercises" element={<Exercises />} />
           <Route path="/bookslist" element={<Bookslist />} />
-          <Route path="/rating" element={<Rating name={test[0].name} id={test[0].id} />} />
+          <Route path="/rating" element={<Rating />} />
         </Routes>
       </main>
     );

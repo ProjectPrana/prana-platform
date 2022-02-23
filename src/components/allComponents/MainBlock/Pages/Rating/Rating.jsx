@@ -4,7 +4,7 @@ import Student from './Student'
 
 
 
-const Rating = ({ props }) => {
+const Rating = () => {
 
 let Result = [
   { name: 'Марк', lesson: '35', lesson5: '56', lesson10: '94' },
